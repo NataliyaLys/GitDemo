@@ -38,7 +38,10 @@ class TestE2E(BaseClass):
         trade.get_order_confirmation()
         sleep(2)
         login.get_logout_button().click()
-        print("Calins changes1")
+        print("Milana's changes1")
+        print("Milana's changes2")
+        print("Milana's changes3")
+        print("Milana's changes4")
     @pytest.fixture(params=TestData.test_data)
     def data_load(self, request):
         return request.param
